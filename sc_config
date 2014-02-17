@@ -1,0 +1,15 @@
+sc_require('apps/todos_one/sc_config');
+
+// var todos_one = SC.AppBuilder.create({
+//   path: 'apps/todos_one'
+// });
+
+var todos_two = BT.AppBuilder.create({
+  path: 'apps/todos_two'
+});
+
+var todos_thee = BT.AppBuilder.create({
+  path: 'apps/todos_three'
+});
+
+

@@ -1,0 +1,3 @@
+BT.todosOne = BT.AppBuilder.create({
+  path: BT.curPath
+});
