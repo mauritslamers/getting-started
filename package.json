@@ -19,7 +19,7 @@
     "url": "https://github.com/mauritslamers/getting-started/issues"
   },
   "dependencies": {
-    "build-tools": "git://github.com/sproutcore/build-tools/build-tools.git"
+    "build-tools": "git://github.com/sproutcore/build-tools.git"
   },
   "homepage": "https://www.sproutcore.com"
 }
