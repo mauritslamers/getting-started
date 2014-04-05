@@ -12,4 +12,8 @@ var todos_thee = BT.AppBuilder.create({
   path: 'apps/todos_three'
 });
 
-
+BT.serverConfig = {
+  host: "localhost",
+  port: 8080,
+  localOnly: true
+};
