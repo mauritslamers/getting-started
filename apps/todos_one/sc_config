@@ -1,4 +1,5 @@
 BT.todosOne = BT.AppBuilder.create({
   //path: BT.curPath
-  path: __dirname
+  path: dirname()
 });
+
