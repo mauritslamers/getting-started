@@ -4,23 +4,17 @@ sc_require('apps/todos_one/sc_config');
 //   path: 'apps/todos_one'
 // });
 
-BT.addFramework(BT.Framework.extend({
-  ref: 'teststatic',
-  path: dirname() + '/frameworks/test'
-}));
-
 var todos_two = BT.AppBuilder.create({
   path: 'apps/todos_two'
 });
 
 var todos_three = BT.AppBuilder.create({
   path: 'apps/todos_three',
-  combineScripts: false,
-  frameworks: ['teststatic']
+  combineScripts: true
 });
 
 BT.serverConfig = {
   host: "localhost",
-  port: 8080,
+  port: 4020,
   localOnly: true
 };
